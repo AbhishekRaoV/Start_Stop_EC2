@@ -1,7 +1,8 @@
 ---
 - hosts: localhost
-  vars_files:
-    - /home/ubuntu/POC/start_stop_instance/keys.yaml
+  vars:
+    regions_list: us-east-1
+    instance_ids: [i-0ad07c705aa6301c5, i-0f6f96466139a5126]
   tasks:
     - name: Start EC2 instances
       ec2:
