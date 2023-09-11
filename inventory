@@ -1,0 +1,3 @@
+[production]
+worker1 ansible_host=54.89.91.10 
+worker2 ansible_host=3.91.225.237 
